@@ -10,31 +10,24 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
-    "Artificial Intelligence",
-    "Computational Linguistics",
-    "Information Retrieval"
+    "Undergraduate Math Education",
+    "Curriculum Development",
+    "Computer-based tools for Undergraduate Learning"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "PhD in Artificial Intelligence"
-  institution = "Stanford University"
-  year = 2012
-
-[[education.courses]]
-  course = "MEng in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
+  course = "PhD in Mathematics"
+  institution = "Duke University"
   year = 2009
 
 [[education.courses]]
-  course = "BSc in Artificial Intelligence"
-  institution = "Massachusetts Institute of Technology"
-  year = 2008
- 
+  course = "Master of Mathematics"
+  institution = "Warwick University"
+  year = 2003
+
 +++
 
 # Biography
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I specialize in early undergraduate mathematics education, having dedicated my career to it after finishing my Ph.D. in Math in 2009 under the supervision of John Harer. For the past decade, I have taught and supervised Math 105L and 106L, entry-level calculus courses at Duke. I have edited the lab manual for these courses, introducing technological and pedagogical innovations adapted to each year’s students. I have served as a college (pre-major) advisor to dozens of undergraduate students and as major advisor to a few. In 2017, I won Duke’s Advisor of the Year Award, as chosen by the Academic Advising Center based on comments from my advisees. I live in Durham, North Carolina with my partner and young child. My pronouns are he/him/his.
