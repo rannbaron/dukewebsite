@@ -47,7 +47,7 @@ There will be three midterm exams. They will be in weeks 5, 9, and 15. The follo
 |---|---|---|---|
 |1|5|Friday 02/08/2019||
 |2|9|Friday 03/08/2019||
-|3|15|Friday 04/09/2019||
+|3|15|Friday 04/19/2019||
 
 # Sage Cell for Computations
 {{< sage >}}
