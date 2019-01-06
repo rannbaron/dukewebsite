@@ -1,6 +1,6 @@
 +++
 title = "106L Materials"
-date = 2018-12-18
+date = 2019-01-06
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -30,6 +30,10 @@ caption = ""
 
 +++
 
+# Class Information
+* [Syllabus](/106lsyllabus/)
+* [Info Sheet](/106Lmaterials/info.pdf)
+
 # Online Worksheets
 | Week |  Worksheet | Notes |
 |:----:|---|---|
@@ -39,6 +43,7 @@ caption = ""
 |4|[Trigonometic Transformations](/worksheets106.2018pdfs/Worksheet2.2.Trig.Transformations.pdf)|
 |12|[Introduction to Differential Equations](/worksheets106.2018pdfs/Worksheet11.1.Intro.toDifferential.Equations.pdf)|
 |15|[World Population Growth](/worksheets106.2018pdfs/Worksheet14.2.World.Population.pdf)|
+||[Applications of Differential Equations](/worksheets106.2018pdfs/Worksheet15.2.Applications.of.Differential.Equations.pdf)|
 
 # Labs
 | Lab Number | Lab PDF | Lab Spreadsheet or Resources |
@@ -53,12 +58,12 @@ caption = ""
 | Lab 8 | [Force and Work](/labs106.2018pdfs/Lab8.Force.and.Work.pdf)| |
 | Lab 9 | [Euler's Method](/labs106.2018pdfs/Lab9.Eulers.Method.pdf)| [Spreadsheet](https://docs.google.com/spreadsheets/d/19KErOvDqzFv-4sy_ZzAKssHQHoUKCusUMquzEwbVyiw/edit#gid=0)|
 | Lab 10 | [Solving Differential Equations](/labs106.2018pdfs/Lab10.Solving.Diffrential.Equations.pdf)| |
-| Lab 11 | [Applications of Differential Equations](/labs106.2018pdfs/Lab11.Applications.of.Differential.Equations.pdf)| |
-| Lab 12 | [Chemical Rates](/labs106.2018pdfs/Lab12.Chemical.Rates.pdf)| |
-| Lab 13 | [Modeling with Differential Equations](/labs106.2018pdfs/Lab13.Modeling.with.Differential.Equations.pdf)| |
+| Lab 11 | [Chemical Rates](/labs106.2018pdfs/Lab11.Chemical.Rates.pdf)| |
+| Lab 12 | [Modeling with Differential Equations](/labs106.2018pdfs/Lab12.Modeling.with.Differential.Equations.pdf)| |
 
 
 # In-Class Worksheets
+### Note: these are for Rann Bar-On's class. Other classes may have different worksheets.
 | Week | Day | Worksheet |
 |---|---|---|
 |1|2|[Review of 105L Concepts](/classworksheets106.2018pdfs/1-2.pdf)|

@@ -1,6 +1,6 @@
 +++
 title = "218 Materials"
-date = 2018-12-18
+date = 2019-01-06
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -30,6 +30,8 @@ caption = ""
 
 +++
 
+# Useful PDFs for Class
+* [Info Sheet](/218pdfs/info.pdf)
 
 # Homework
 

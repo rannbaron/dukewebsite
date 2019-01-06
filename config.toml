@@ -7,7 +7,7 @@
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 #baseurl = "/"
-baseurl = "https://services.math.duke.edu/~rann/testsite/"
+baseurl = "https://services.math.duke.edu/~rann/"
 
 # These two lines make sure all URLs are relative.
 canonifyurls = true
