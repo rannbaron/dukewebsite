@@ -2,3 +2,4 @@ public/
 .idea/
 *.pdf
 *.swp
+_gen/
