@@ -1,6 +1,6 @@
 +++
 title = "105L Materials"
-date = 2019-01-06
+date = 2020-03-17
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -8,7 +8,7 @@ draft = false
 tags = ["calculus", "105L"]
 
 # Project summary to display on homepage.
-summary = "Materials for Fall 2018 105L"
+summary = "Materials for Spring 2020 105L"
 
 # Optional image to display on homepage.
 image_preview = ""
@@ -28,30 +28,13 @@ highlight = true
 image = ""
 caption = ""
 
+smartypants = false
+fractions = false
 +++
 
-# Worksheets
-| Week | Day | Worksheet | Notes |
-|:------:|:---:|---|---|
-|1|1|[Algebra Review](/worksheets105.2018pdfs/Worksheet1.1.Algebra.Review.pdf)||
-|1|3|[Intro to Math Modeling](/worksheets105.2018pdfs/Worksheet1.3.intromathmodel.pdf)||
-|2|1|[Functions](/worksheets105.2018pdfs/Worksheet2.1.functions.pdf)||
-|2|2|[Parallel, Perpendicular, and Piecewise](/worksheets105.2018pdfs/Worksheet2.2.Parallel.Perpendicular.Piecewise.pdf)||
-|2|3|[Polynomials](/worksheets105.2018pdfs/Worksheet2.3+3.1.Polynomials.Rational.Functions.pdf)|Questions 1 and 2|
-|3|1|[Polynomials](/worksheets105.2018pdfs/Worksheet2.3+3.1.Polynomials.Rational.Functions.pdf)|Questions 3 and 4|
-|3|2|[Function Transformations](/worksheets105.2018pdfs/Worksheet3.2.Transformations.pdf)||
-|7|2|[Compound Interest](/worksheets105.2018pdfs/Worksheet7.2.Compound.Interest.pdf)||
-|8|1|[Logarithms](/worksheets105.2018pdfs/Worksheet8.1.Logs.pdf)||
-|8|2|[Composition of Functions](/worksheets105.2018pdfs/Worksheet8.2.Composition.pdf)||
-|8|3|[Chain Rule](/worksheets105.2018pdfs/Worksheet8.3.Chain.Rule.pdf)||
-|10|2|[Differentiation Practice](/worksheets105.2018pdfs/Worksheet10.2.differentiation.practice.pdf)||
- | |[Practice with e and log](/worksheets105.2018pdfs/Worksheet10.2.practice.with.e.and.log.pdf)||
-|11|3|[Optimization I](/worksheets105.2018pdfs/Worksheet12-1(1).Optimization1.pdf)||
-|12|1|[L'Hopital's Rule](/worksheets105.2018pdfs/Worksheet12.1.LHopital.pdf)||
-|12|2|[Optimization II](/worksheets105.2018pdfs/Worksheet12.1(2).Optimization2.pdf)||
-|14|1|[Probability I](/worksheets105.2018pdfs/Worksheet14.1.Probability1.pdf)||
-|14|2|[Probability II](/worksheets105.2018pdfs/Worksheet14.2.Probability2.pdf)||
-|14|3|[Probability III](/worksheets105.2018pdfs/Worksheet14.3.Probability3.pdf)||
+# Class Information
+* [Syllabus](/105lsyllabus/) (Reproduced day-by-day below)
+* [Info Sheet](/105Lmaterials/info.pdf)
 
 # Labs
 | Lab Number | Lab PDF | Lab Spreadsheet or Resources |
@@ -60,7 +43,7 @@ caption = ""
 | | | [Training Video 1](https://drive.google.com/file/d/0ByzZ4NkJ-oRdMWhoR1MwQjA3WGs/view)|
 | | | [Training Video 2](https://drive.google.com/file/d/0ByzZ4NkJ-oRdamhPZ0lTeXUzSnc/view)|
 | | | [Training Video 3](https://drive.google.com/file/d/0ByzZ4NkJ-oRdZUpDSVo5anl4TVk/view)|
-| Lab 1 | [Cancer Mortality](/labs105.2018pdfs/Lab1.cancer.pdf)| [Spreadsheet](https://docs.google.com/spreadsheets/d/1Dt6KklTwT1Pub1gjyrRpHXiSNaxIqwwYCVEoQaehzuc/edit#gid=0)|
+| Lab 1 | [Cancer Mortality](/labs105.2018pdfs/Lab1.cancer.pdf)| [Spreadsheet](https://docs.google.com/spreadsheets/d/1Dt6KklTwT1Pub1gjyrRpHXiSNaxIqwwYCVEoQaehzuc/edit#gid=0)<br>[Report Instructions](/105Lmaterials/cancerassignment.pdf)|
 | Lab 2 | [Linear Models](/labs105.2018pdfs/Lab2.Linear.Models.pdf)| [Spreadsheet](https://docs.google.com/spreadsheets/d/1VoilrDy81Ja_CD4812qzDF-yslZz0ZEl8cnrh_zA4zI/edit#gid=0)|
 | Lab 3 | [Limits](/labs105.2018pdfs/Lab3.Limits.pdf) | [Wolfram Alpha](https://www.wolframalpha.com)|
 | | | [Geogebra](https://www.geogebra.com/graphing/)|
@@ -76,32 +59,54 @@ caption = ""
 | Lab 10 | [Relative Rates of Growth](/labs105.2018pdfs/Lab10.Relative.Rates.of.Growth.pdf)| |
 | Lab 11 | [Related Rates](/labs105.2018pdfs/Lab11.Related.Rates.pdf)| |
 
-# In-Class Worksheets
-| Week | Day | Worksheet |
-|---|---|---|
-|2|1|[Functions](/classworksheets105.2018pdfs/2-1.pdf)|
-|2|2|[Linear Functions](/classworksheets105.2018pdfs/2-2.pdf)|
-|2|3|[Power Functions and Polynomials](/classworksheets105.2018pdfs/2-3.pdf)|
-|3|1|[Rational Functions](/classworksheets105.2018pdfs/3-1.pdf)|
-|3|2|[New Functions from Old](/classworksheets105.2018pdfs/3-2.pdf)|
-|3|3|[Measuring Speed](/classworksheets105.2018pdfs/3-3.pdf)|
-|4|1|[Derivative at a Point](/classworksheets105.2018pdfs/4-1.pdf)|
-|4|3|[Limits](/classworksheets105.2018pdfs/4-3.pdf)|
-|5|1|[The Derivative Function and its Interpretation](/classworksheets105.2018pdfs/5-1.pdf)|
-|6|1|[The Second Derivative](/classworksheets105.2018pdfs/6-1.pdf)|
-|6|2|[Differentiability](/classworksheets105.2018pdfs/6-2.pdf)|
-|6|3|[The Product and Quotient Rules](/classworksheets105.2018pdfs/6-3.pdf)|
-|7|3|[Exponential Functions](/classworksheets105.2018pdfs/7-3.pdf)|
-|8|1|[Logarithms](/classworksheets105.2018pdfs/8-1.pdf)|
-|8|3|[The Chain Rule](/classworksheets105.2018pdfs/8-3.pdf)|
-|9|1|[Differentiating Exponential Functions](/classworksheets105.2018pdfs/9-1.pdf)|
-|9|2|[Implicit Differentiation](/classworksheets105.2018pdfs/9-2.pdf)|
-|9|3|[Differentiating Logarithmic Functions](/classworksheets105.2018pdfs/9-3.pdf)|
-|10|1|[Linear Approximations](/classworksheets105.2018pdfs/10-1.pdf)|
-|10|3|[Using First and Second Derivatives](/classworksheets105.2018pdfs/10-3.pdf)|
-|11|2|[Optimization I - Global Maxima and Minima](/classworksheets105.2018pdfs/11-2.pdf)|
-|12|1|[L'Hopital's Rule](/classworksheets105.2018pdfs/12-1.pdf)|
-|13|1|[Probability I - Outcomes and Events](/classworksheets105.2018pdfs/13-1.pdf)|
-|15|1|[Probability III - Expectation and Money](/classworksheets105.2018pdfs/15-1.pdf)|
-|15|2|[Related Rates](/classworksheets105.2018pdfs/15-2.pdf)|
+# Resources
+
+* [Writing Math](/105Lmaterials/guidelines.pdf)
+
+# Worksheets and Homework
+| Day/Worksheet Link | Date | Textbook Section | Topic | Homework |
+|---|---|:---:|---|---|
+|1-2|01/08/20||Course Expectations, Precalculus Concept Assessment|Pre-Lab 1: Spreadsheet Training for Labs<br>Online Writing Assessment (Sakai)<br>(must be done before lab)|
+|[1-3](/classworksheets105Lpdfs/1-3.pdf)|01/10/20||Algebra Review, Writing in Mathematics|Complete in-class worksheet|
+|2-1|01/13/20||MLK Day||
+|[2-2](/classworksheets105Lpdfs/2-2.pdf)|01/15/20|1.1|Functions|1.1/1,3,20-23,39,44-48<br> Chapter 1 Review/9<br>Extra homework problems from in-class worksheet|
+|[2-3](/classworksheets105Lpdfs/2-3.pdf)|01/17/20|1.1|Linear Functions|1.1/15-19,27-31,43,57,60<br> Extra homework problems from in-class worksheet|
+|[3-1](/classworksheets105Lpdfs/3-1.pdf)|01/20/20|Cspk|Introduction to Modeling|1.1/5,7,10-13<br> Complete in-class worksheet|
+|[3-2](/classworksheets105Lpdfs/3-2.pdf)|01/22/20|1.6|Power Functions & Polynomials|1.6/4,6,17-19,23,31-34,39-42<br> (39-41: You may assume that a quadratic function reaches its max or min half way between its zeros)<br>Extra homework problems from in-class worksheet|
+|[3-3](/classworksheets105Lpdfs/3-3.pdf)|01/24/20|1.6|Rational Functions|1.6/7-9,28,37,43,44,49<br> Chapter 1 Review/73<br> Extra homework problems from in-class worksheet|
+|[4-1](/classworksheets105Lpdfs/4-1.pdf)|01/27/20|1.3|New Functions From Old|1.3/4-7,12-17,22,28-32,34<br>Extra homework problems from in-class worksheet|
+|[4-2](/classworksheets105Lpdfs/4-2.pdf)|01/29/20|2.1|Rate of Change|2.1/1,4,5,8,11-14,16,18-23|
+|[4-3](/classworksheets105Lpdfs/4-3.pdf)|01/31/20|2.2|Derivative at a Point|2.2/1,6,9-12,14-19,27,41,43,46,47,50<br> begin 5-2 review.|
+|[5-1](/classworksheets105Lpdfs/5-1.pdf)|02/03/20||Limits and Continuity|1.7/1-6,15,20,31,37<br> 1.8/1,29-31,39,41,64,66,69<br> Chapter 1 Review/77<br> finish 5-2 review|
+|5-2|02/05/20|1.7,1.8|Review|Chapter 1 Review: 11(a-f),28,31,34,35,37,38, 42-45,47,58,71 (Hint for 35: y is not a function of x, but x is a function of y...)<br> Chapter 2 Review: 6,13,15,20,31,32,34,43,44,46,49,50<br> 1.7/21<br> 1.1/40<br> 1.6/35|
+|[5-3](/classworksheets105Lpdfs/5-3.pdf)|02/07/20|2.3|The Derivative Function|2.3/3,5,7,21,26-28,31,35-38,40,43,48,54|
+|6-1|02/10/20|2.4|Interpretations of the Derivative|2.4/1,3,4,6-9,11,12,22,26,28,32<br> Chapter 2 Review/55|
+|[6-2](/classworksheets105Lpdfs/6-2.pdf)|02/12/20|2.5|The Second Derivative|2.5/2-13,16,18,19,24,26,31<br> Chapter 2 Review/56|
+|[6-3](/classworksheets105Lpdfs/6-3.pdf)|02/14/20|2.6|Differentiability|2.6/1-5,8-10,16|
+|[7-1](/classworksheets105Lpdfs/7-1.pdf)|02/17/20|3.2|Product and Quotient Rules|3.3/1,13,14,18,21,22,28,31-33,44,45,52,56,57,61,62<br> Chapter 3 Review/3, 65|
+|[7-2](/classworksheets105Lpdfs/7-2.pdf)|02/19/20|1.3|Compound Interest|Complete in-class worksheet|
+|[7-3](/classworksheets105Lpdfs/7-3.pdf)|02/21/20|1.2|Exponential Functions|1.2/9,12,15,16,19,25,31-34,40-42. (Hint for 34: see Day 4-1, 'New Functions from Old', and think about flipping and shifting graphs.)|
+|[8-1](/classworksheets105Lpdfs/8-1.pdf)|02/24/20|1.4|Logarithms|1.4/1-10,14-21,24,30,31,55,32,39,63<br> Chapter 1 Review/61, 64<br> Extra homework problems from in-class worksheet|
+|[8-2](/classworksheets105Lpdfs/8-2.pdf)|02/26/20|3.2|Differentiating Exponential Functions|3.2/1,6,8,9,13-15,19,21,23,24,43,44<br>3.3/6,10,25, 55,58.|
+|[8-3](/classworksheets105Lpdfs/8-3.pdf)|02/28/20|1.3|Composition|1.3/13,15-17,64,68<br>Complete In-Class Worksheet|
+|[9-1](/classworksheets105Lpdfs/9-1.pdf)|03/02/20|3.4|Chain Rule|3.4/4,10,23,26,38,47,51,53,57-65,75-77,79,80,94<br> Extra homework problems from in-class worksheet<br> Begin 10-2 review.|
+|[9-2](/classworksheets105Lpdfs/9-2.pdf)|03/04/20|3.7|Implicit Differentiation I|3.7/1,3,9-12,19,20,22,26,30,31-36,40|
+|[9-3](/classworksheets105Lpdfs/9-3.pdf)|03/06/20|3.6|Differentiating Logarithmic Functions|3.6/9-11,14,15,29,36,38,43,45,46,49<br> 3.7/13,14,27 <br>Chapter 3 Review/53<br> finish 10-2 review.|
+|10-1|03/09/20||Spring Break||
+|10-2|03/11/20||Spring Break||
+|10-3|03/13/20||Spring Break||
+|[11-1](/classworksheets105Lpdfs/11-1.pdf)|03/16/20|3.9|Linear Approximations|3.9/1-3,5-8,14,15,25,26,38|
+|[11-2](/classworksheets105Lpdfs/11-2.pdf)|03/18/20||Review|1.2/41<br> 1.4/34,49<br> Chapter 1 Review/59,60<br> 2.4/17,18<br> Chapter 2 Review/17,41,54,60,62<br> 3.1/24,67<br> 3.3/17<br> 3.7/37,41<br> Chapter 3 Review/5,13,19,23,38,45,74,76,93,94 95(a-d,f),96(a-d,f),106<br>Worksheet 11-2|
+|[11-3](/classworksheets105Lpdfs/11-3.pdf)|03/20/20|4.1|Using 1st & 2nd Derivatives|4.1/1-3,9-15,24-26|
+|12-1|03/23/20|4.1|Using 1st & 2nd Derivatives|4.1/20-22,27-31,33,34,37,38,40,43-46,48|
+|12-2|03/25/20||Catch Up Day||
+|[12-3](/classworksheets105Lpdfs/12-3.pdf)|03/27/20|4.2|Optimization|4.2/11,12,15,26,29,31<br> 4.3/50,52|
+|[13-1](/classworksheets105Lpdfs/13-1.pdf)|03/30/20|4.4|Optimization |4.3/17,33,39,41,42,46<br> Chapter 4 Review/67,69,71|
+|[13-2](/classworksheets105Lpdfs/13-2.pdf)|04/01/20|4.7|L'Hôpital's Rule|4.7/1-3,6-8,10,11-19,25-28,31<br>Extra Homework Problems from In-Class Worksheet|
+|13-3|04/03/20|4.4|Optimization |4.3/23<br>Complete In-Class Worksheet|
+|14-1|04/06/20||Review|Chapter 4 Review/1-3,6,8,9,12,13-24,29-32,39-45, 47-51,56, 62,64-66,69-72,80|
+|14-2|04/08/20||Test 3||
+|[14-3](/classworksheets105Lpdfs/14-3.pdf)|04/10/20||Probability II|Homework Problems from In-Class Worksheet|
+|15-1|04/13/20||Probability III|Homework Problems from In-Class Worksheet|
+|[15-2](/classworksheets105Lpdfs/15-2.pdf)|04/15/20|4.6|Related Rates|4.6/1,3,5,11,15,21,30,34,35,41|
 [//]: <> (INCLASSEND)
