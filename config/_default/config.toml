@@ -17,8 +17,8 @@ baseurl = "https://services.math.duke.edu/~rann/"
 copyright = "&copy; Rann Bar-On 2018"
 
 # These two lines make sure all URLs are relative.
-#canonifyurls = true
-#relativeURLs=true
+canonifyurls = true
+relativeURLs=true
 
 ############################
 ## Advanced options below ##
@@ -74,3 +74,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   category = "categories"
   publication_type = "publication_types"
   author = "authors"
+
+[permalinks]
+  authors = "/author/:slug/"
+  tags = "/tag/:slug/"
+  categories = "/category/:slug/"
+  publication_types = "/publication-type/:slug/"
