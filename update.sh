@@ -14,5 +14,5 @@ done
 #/snap/hugo/current/bin/hugo
 hugo
 sed -i -e "s/('\/img\/portrait\.jpg/('\.\/img\/portrait\.jpg/" $LOCALWEBDIR/public/index.html
-rsync -ravz $LOCALWEBDIR/public/ math:~/public_html/ --delete
+rsync -Pravz $LOCALWEBDIR/public/ cauchy.math.duke.edu:~/public_html/ --delete
 cd $PWD
