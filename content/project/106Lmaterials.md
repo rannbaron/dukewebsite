@@ -1,6 +1,6 @@
 +++
 title = "106L Materials"
-date = 2020-03-17
+date = 2020-07-15
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -32,6 +32,9 @@ caption = ""
 # Class Information
 * [Syllabus](/106lsyllabus/)
 * [Info Sheet](/106Lmaterials/info.pdf)
+
+# Zoom Office Hours
+### Tuesdays 1-3pm, see invite in your mail/Sakai
 
 # Labs
 | Lab Number | Lab PDF | Lab Spreadsheet or Resources |
@@ -89,10 +92,14 @@ caption = ""
 |Day|Date|Textbook Section|Topic |Homework|Video|
 |---|---|:---------:|---|---|---|
 |||||||
-|[12-1](/classworksheets106Lpdfs/12-1.pdf)|03/23/20|11.1|Differential Equations|11.1/1, 5, 16, 22, 24<br/> 11.5/1<br/> 11.6/1<br/> Chapter 11 Review 1||
-|[12-2](/classworksheets106Lpdfs/12-2.pdf)|03/30/20|11.1|Slope Fields|11.2/6, 8, 9, 15, 13, 14, 16, 17, 23<br> Chapter 11 Review/2||
-|[12-3](/classworksheets106Lpdfs/12-3.pdf)|04/07/20|11.5|Equilibria and Stability|11.5/3, 4, 8(a), 9, 32, 33, 36, 37||
-|[13-1](/classworksheets106Lpdfs/13-1.pdf)|04/14/20|11.4|Separation of Variables|11.4/1, 3, 5, 6, 13, 18, 20-26, 38||
-|13-2|04/21/20|11.4|Separation of Variables|11.4/7, 8, 14-16, 34-37, 39, 41||
+|[12-1](/classworksheets106Lpdfs/12-1.pdf)|03/23/20|11.1|Differential Equations|11.1/1, 5, 16, 22, 24<br> 11.5/1<br> 11.6/1<br> Chapter 11 Review 1|[Video Part I](/106Lmaterials/videolectures/106L_Lecture_1_Intro_to_DE.part1.mp4) [Video Part II](/106Lmaterials/videolectures/106L_Lecture_1_Intro_to_DE.part2.mp4)|
+|[12-2](/classworksheets106Lpdfs/12-2.pdf)|03/30/20|11.1|Slope Fields|11.2/6, 8, 9, 15, 13, 14, 16, 17, 23<br> Chapter 11 Review/2|[Video](/106Lmaterials/videolectures/106L_Lecture_2_Slopefields.mp4)|
+|[Euler's Method Lab](/labs106.2018pdfs/Lab9.Eulers.Method.pdf)|04/06/20||||[Video](https://warpwire.duke.edu/w/7ZQDAA/)|
+|[12-3](/classworksheets106Lpdfs/12-3.pdf)|04/13/20|11.4|Separation of Variables|11.4/1, 3, 5-8, 13-16, 18, 20-26, 34-39, 41|[Video](https://warpwire.duke.edu/w/cZYDAA/)|
+|[13-1](/classworksheets106Lpdfs/13-1.pdf)|04/20/20|11.5|Equilibria and Stability|11.5/3, 4, 8(a), 9, 32, 33, 36, 37|[Video Part 1](https://warpwire.duke.edu/w/nZgDAA/) [Video Part 2](https://warpwire.duke.edu/w/n5gDAA/)|
+
+### End of Semester Assignments
+* [Assignment 1](/106Lmaterials/assignment1.pdf)
+* [Assignment 2](/106Lmaterials/assignment2.pdf)
 
 [//]: <> (INCLASSEND)

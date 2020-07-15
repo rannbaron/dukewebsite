@@ -84,8 +84,7 @@ All homework from the textbook has solutions that can be found on [Sakai](https:
 |||||||
 |12-1|03/23/20|11.1|Differential Equations|11.1/1, 5, 16, 22, 24<br> 11.5/1<br> 11.6/1<br> Chapter 11 Review 1||
 |12-2|03/30/20|11.1|Slope Fields|11.2/6, 8, 9, 15, 13, 14, 16, 17, 23<br> Chapter 11 Review/2||
-|Lab:|04/03/20|11.3|Euler's Method|11.3/7, 9, 8, 14, 17||
-|12-3|04/07/20|11.5|Equilibria and Stability|11.5/3, 4, 8(a), 9, 32, 33, 36, 37||
+|Lab:|04/06/20|11.3|Euler's Method|11.3/7, 9, 8, 14, 17||
+|12-3|04/13/20|11.4|Separation of Variables|11.4/1, 3, 5-8, 13-16, 18, 20-26, 34-39, 41||
 |||||||
-|13-1|04/14/20|11.4|Separation of Variables|11.4/1, 3, 5, 6, 13, 18, 20-26, 38||
-|13-2|04/21/20|11.4|Separation of Variables|11.4/7, 8, 14-16, 34-37, 39, 41||
+|13-1|04/20/20|11.5|Equilibria and Stability|11.5/3, 4, 8(a), 9, 32, 33, 36, 37||
