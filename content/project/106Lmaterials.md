@@ -1,6 +1,6 @@
 +++
 title = "106L Materials"
-date = 2020-07-15
+date = 2020-07-23
 draft = false
 
 # Tags: can be used for filtering projects.
@@ -17,7 +17,7 @@ image_preview = ""
 external_link = ""
 
 # Does the project detail page use math formatting?
-math = false
+math = true
 
 # Does the project detail page use source code highlighting?
 highlight = true
