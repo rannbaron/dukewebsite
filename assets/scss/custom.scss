@@ -1,5 +1,11 @@
-.syllabustable table, .article-container {
-   margin-left:100px;
-   width:1200px;
+.article-container {
+   max-width: 1050px;
+}  
+
+.midcolwidth table td, table th {
+   min-width: 50px;
 }
 
+.unindentul ul {
+   padding-left: 12px;
+}

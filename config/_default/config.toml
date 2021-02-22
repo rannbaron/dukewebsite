@@ -14,7 +14,7 @@ baseurl = "https://services.math.duke.edu/~rann/"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
-copyright = "&copy; Rann Bar-On 2018"
+copyright = "&copy; Rann Bar-On 2021"
 
 # These two lines make sure all URLs are relative.
 canonifyurls = true
@@ -23,8 +23,6 @@ relativeURLs=true
 ############################
 ## Advanced options below ##
 ############################
-
-theme = "academic"
 
 # Get last modified date for content from Git?
 enableGitInfo = false
@@ -80,3 +78,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
   tags = "/tag/:slug/"
   categories = "/category/:slug/"
   publication_types = "/publication-type/:slug/"
+
+[module]
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+  [[module.imports]]
+    path = "github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic"
+
+# Icon Pack Extensions
+[icon.pack]
+ ai = false  # Enable the Academicons icon pack https://jpswalsh.github.io/academicons/

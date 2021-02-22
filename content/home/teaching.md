@@ -15,20 +15,8 @@ weight = 60
 
 +++
 
-In the Fall 2019 semester, I am teaching the following courses:
+In the Fall 2021 semester, I am teaching the following courses:
 
-* Math 105L Section 1
-  * Class: MWF 8:45-9:35am, West Duke Building 108B
-  * Lab: Th 12:45-2:30pm, West Duke Building 106
+* Math 105L
   * [Materials for Class and Lab](/project/105lmaterials/)
-  
-<br>
 
-* Math 218 Section 1
-  * Class: MWF 12:00-12:50, West Duke 108B
-  * [Materials for Class](/project/218materials/)
-
-<br>
-
-* Math 218L
-  * Lab: TTh 10:05-11:20am, West Duke Building 108B
