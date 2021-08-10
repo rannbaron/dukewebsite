@@ -8,7 +8,11 @@ tags = ["calculus",   "106L"]
 [blackfriday]
   smartypants = false
 
+robotsdisallow = true
+
 +++
+# Note that this is the old Spring 2020 site. Links below may be broken or outdated.
+
 [Back to Main 106L Page](/project/106lmaterials)
 
 Homework should be completed following the class on that day,  before the next class. For example,  Day 1-1 (08/26/19) homework should be completed before Day 1-2 (08/28/19). It is suggested that homework be done the day it is covered in class.
