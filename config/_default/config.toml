@@ -20,6 +20,9 @@ copyright = "&copy; Rann Bar-On 2021"
 canonifyurls = true
 relativeURLs=true
 
+# Enable robots file to suppress crawling of certain pages
+enableRobotsTXT = "true"
+
 ############################
 ## Advanced options below ##
 ############################
@@ -81,9 +84,9 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [module]
   [[module.imports]]
-    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy"
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5"
   [[module.imports]]
-    path = "github.com/wowchemy/wowchemy-hugo-modules/netlify-cms-academic"
+    path = "github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5"
 
 # Icon Pack Extensions
 [icon.pack]
