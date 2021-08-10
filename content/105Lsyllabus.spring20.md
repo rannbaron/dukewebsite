@@ -8,8 +8,14 @@ tags = ["calculus",   "105L"]
 [blackfriday]
   smartypants = false
 
+robotsdisallow = true
+
++++
+
 +++
 [Back to Main 105L Page](/project/105lmaterials)
+
+# Note that this is the old Spring 2020 site. Links below may be broken or outdated.
 
 Homework should be completed following the class on that day,  before the next class. For example,  Day 1-2 (01/08/20) homework should be completed before Day 1-3 (01/10/20). It is suggested that homework be done the day it is covered in class.
 
