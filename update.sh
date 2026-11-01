@@ -1,5 +1,8 @@
 #!/bin/bash
-LOCALWEBDIR=~/src/Dukewebsite/
+set -e
+
+LOCALWEBDIR=~/src/Dukewebsite
+MAINWEBDIR=~/src/website/mainwebsite
 CURDIR=$PWD
 
 DATE=`date -I`
@@ -7,27 +10,40 @@ VPN=DukeVPN
 
 cd $LOCALWEBDIR
 
-# replace date with current date in all project pages
+echo "==> [1/6] Updating date stamps on course project pages..."
 for fn in `ls content/project/*.md`; do
 	sed -i -r s/[0-9]{4}-[0-9]{2}-[0-9]{2}/$DATE/ $fn
 done
 
-#/snap/hugo/current/bin/hugo
+echo "==> [2/6] Building modern Hugo website..."
 hugo
-sed -i -e "s/('\/img\/portrait\.jpg/('\.\/img\/portrait\.jpg/" $LOCALWEBDIR/public/index.html
 
+echo "==> [3/6] Committing & pushing Duke website source to GitHub and GitLab..."
+git add -A
+if ! git diff-index --quiet HEAD --; then
+	git commit -m "auto: update Duke website content ($DATE)"
+	git push github master
+	git push origin master
+fi
 
-#while [[ -z `nmcli -t -f NAME c show --active | grep $VPN` ]]; do
-#    echo "Not Connected to Duke VPN. Connecting..."
-#    nmcli connection up $VPN
-#done
+echo "==> [4/6] Deploying compiled Duke website to rannbar-on.com/duke/..."
+mkdir -p $MAINWEBDIR/duke
+rsync -av --delete $LOCALWEBDIR/public/ $MAINWEBDIR/duke/
 
-#echo "Check Duo to approve login!"
+cd $MAINWEBDIR
+git add duke/ classworksheets105Lpdfs classworksheets106Lpdfs labs105.2018pdfs labs106.2018pdfs 105Lmaterials 106Lmaterials 218pdfs 105lmaterials 106lmaterials project
+if ! git diff-index --quiet HEAD --; then
+	git commit -m "feat(duke): update Duke site on rannbar-on.com ($DATE)"
+	git push origin main
+fi
 
-# Are we at Duke?
+cd $LOCALWEBDIR
+
+echo "==> [5/6] Generating Duke server forwarding & embed layer..."
+python3 build_cauchy_forwarder.py
+
+echo "==> [6/6] Syncing forwarder layer to Duke cauchy server..."
 DUKE=`curl -s ipinfo.io/org | cut -d ' ' -f 2`
-
-# If not, connect to VPN
 if [[ $DUKE != Duke ]]; then
 	if ! systemctl is-active --quiet vpnagentd; then
 		echo "Cisco VPN daemon (vpnagentd) is inactive. Starting service..."
@@ -47,13 +63,11 @@ if [[ $DUKE != Duke ]]; then
 		STATE=`/opt/cisco/secureclient/bin/vpn state | grep state | tail -1 | cut -d' ' -f5`
 		ATTEMPTS=$((ATTEMPTS + 1))
 	done
-
 	echo "Connected to Duke VPN. Proceeding..."
 fi
 
 echo "Connecting to math server...Check Duo to approve login!"
-
-rsync -Pravz $LOCALWEBDIR/public/ cauchy.math.duke.edu:~/public_html/ --delete
+rsync -Pravz $LOCALWEBDIR/public_cauchy/ cauchy.math.duke.edu:~/public_html/ --delete
 cd $CURDIR
 
 if [[ $STATE = Connected ]]; then
@@ -65,4 +79,5 @@ if [[ $STATE = Connected ]]; then
 	    esac
 	done
 fi
-#nmcli connection down $VPN
+
+echo "==> Duke website update complete!"

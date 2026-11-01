@@ -7,3 +7,4 @@ _gen/
 public.bak/
 update.sh.save
 *.log
+public_cauchy/

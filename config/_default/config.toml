@@ -10,7 +10,7 @@ title = "Rann Bar-On"
 # The URL of your website.
 # End your URL with a `/` trailing slash, e.g. `https://example.com/`.
 #baseurl = "/"
-baseurl = "https://services.math.duke.edu/~rann/"
+baseurl = "https://rannbar-on.com/duke/"
 
 # Your copyright notice - appears in site footer.
 # To display a copyright symbol, type `&copy;`.
