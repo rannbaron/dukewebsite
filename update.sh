@@ -3,6 +3,7 @@ LOCALWEBDIR=~/src/Dukewebsite/
 CURDIR=$PWD
 
 DATE=`date -I`
+VPN=DukeVPN
 
 cd $LOCALWEBDIR
 
@@ -14,5 +15,42 @@ done
 #/snap/hugo/current/bin/hugo
 hugo
 sed -i -e "s/('\/img\/portrait\.jpg/('\.\/img\/portrait\.jpg/" $LOCALWEBDIR/public/index.html
+
+
+#while [[ -z `nmcli -t -f NAME c show --active | grep $VPN` ]]; do
+#    echo "Not Connected to Duke VPN. Connecting..."
+#    nmcli connection up $VPN
+#done
+
+#echo "Check Duo to approve login!"
+
+# Are we at Duke?
+DUKE=`curl -s ipinfo.io/org | cut -d ' ' -f 2`
+
+# If not, connect to VPN
+if [[ $DUKE != Duke ]]; then
+	STATE=`/opt/cisco/secureclient/bin/vpn state | grep state | head -1 | cut -d' ' -f5`
+	while [[ $STATE != Connected ]]; do
+	     echo "Not Connected to Duke VPN. Connecting..."
+	     /opt/cisco/secureclient/bin/vpn con vpn.duke.edu
+	     STATE=`/opt/cisco/secureclient/bin/vpn state | grep state | tail -1 | cut -d' ' -f5`
+	done
+
+	echo "Connected to Duke VPN. Proceeding..."
+fi
+
+echo "Connecting to math server...Check Duo to approve login!"
+
 rsync -Pravz $LOCALWEBDIR/public/ cauchy.math.duke.edu:~/public_html/ --delete
 cd $PWD
+
+if [[ $STATE = Connected ]]; then
+	while true; do
+	    read -p "Disconnect from Duke VPN? " yn
+	    case $yn in
+	        [Yy]* ) /opt/cisco/secureclient/bin/vpn disconnect; break;;
+	        * ) echo "Staying connected!"; break;;
+	    esac
+	done
+fi
+#nmcli connection down $VPN

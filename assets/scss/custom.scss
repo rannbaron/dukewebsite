@@ -1,6 +1,17 @@
 .article-container {
-   max-width: 1050px;
-}  
+   max-width: 1200px;
+
+   th {background-color: #EEE }
+   td:empty::after{
+     content: "\00a0";
+   }
+
+   td:not(:first-child),th:not(:first-child) {
+    border-left: 20px;
+   }
+  
+   table { width: 100% }
+}
 
 .midcolwidth table td, table th {
    min-width: 50px;
@@ -8,4 +19,22 @@
 
 .unindentul ul {
    padding-left: 12px;
+}
+
+.syllabustable {
+   ul,li {
+      margin-left: 0; padding-left: 0;
+   }
+
+   tbody>tr:not(:nth-child(6n+1)):hover {
+     background-color: lightyellow;
+   }
+
+   tr:nth-child(even) {background-color: #EEE}
+   tr:nth-child(odd) {background-color: #FFF}
+}
+
+.article-container blockquote {
+   padding-right: 1.25rem;
+   margin-left: 2rem;
 }

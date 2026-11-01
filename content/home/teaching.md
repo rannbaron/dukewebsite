@@ -15,8 +15,8 @@ weight = 60
 
 +++
 
-In the Fall 2021 semester, I am teaching the following courses:
+In the Spring 2022 semester, I am teaching the following courses:
 
-* Math 105L
-  * [Materials for Class and Lab](/project/105lmaterials/)
+* Math 106L
+  * [Materials for Class and Lab](/project/106lmaterials/)
 

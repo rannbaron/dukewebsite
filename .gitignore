@@ -3,3 +3,7 @@ public/
 *.pdf
 *.swp
 _gen/
+.hugo_build.lock
+public.bak/
+update.sh.save
+*.log

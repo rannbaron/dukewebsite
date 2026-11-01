@@ -1,10 +1,10 @@
 # Math 105L: Video Project
 
-One of your major pieces of work for the semester will be to create a video explaining a mathematical concept, either one from our class, or any other bit of math you find interesting or are curious about. This sheet outlines the project, the timeline for it, its structure, and its assessment.
+One of your major bits of work for the semester will be to create a video explaining a mathematical concept, either one from our class, or any other bit of math you find interesting or are curious about. This sheet outlines the project, the timeline for it, its structure, and its assessment.
 
 ## Organization {#organization .unnumbered}
 
-You will work in assigned groups of two or three (most groups will be three). All students must appear in the video, and all students must do approximately equal work on topic selection and the storyboard/script (see below). Your video can be longish (up to five minutes) or short - the key is to clearly explain a concept! My suggestion would be to use TikTok. However, you may use any software you like.
+You will work in groups of four or three (most groups will be three). All students must appear in the video, and all students must do approximately equal work on topic selection and the storyboard/script (see below). Your video can be longish (up to eight minutes) or short (but no less than 2.5 minutes) - the key is to clearly explain a concept!. My suggestion would be to use TikTok. However, you may use any software you like.
 
 ## Content {#content .unnumbered}
 
@@ -34,10 +34,10 @@ You will produce two major bits of work for the project: A [storyboard](https://
 
 ## Timeline {#timeline .unnumbered}
 
--   **You will need to meet and research a topic by Monday, Oct 11 at 8am**. By that time, your group should send me an email with your choice of
-    topic and a list of resources you plan to use to learn about it. I will reply within a day or two, either asking for a bit more detail (or more resources), or approving your decision.
--   **The storyboard and script for your video will be due Monday, Nov 1 at 8am on Gradescope**. I would be more than happy to meet to discuss your work once in between these dates. It would be a good idea for your group to plan to have such a meeting with me. I will grade and return the storyboard and script to you within a week. **I may ask you to make revisions. If so, those will be due Monday, Nov 15** There will be a project workday on Friday, Nov 12.
--   **Your final video will be presented to the class during the last week of classes (Nov 29-Dec 3rd)**, the week after Thanksgiving. Students will sign up for time slots during which the video will be shown to your class.
+-   **You will need to meet and research a topic by Monday, Nov 2**. On that day, your group should send me an email with your choice of
+    topic and a list of resources you plan to use to learn about it. I will reply within a day or two, either asking for a bit more detail (or more resources), or approving your decision.s
+-   **The storyboard and script for your video will be due Friday, Nov 13 at 8am**. I would be more than happy to meet to discuss your work once in between these dates. It would be a good idea for your group to plan to have such a meeting with me. I will grade and return the storyboard and script to you within a week. **I may ask you to make revisions. If so, those will be due Wednesday, Nov 18** 
+-   **Your final video will be presented to the class during Week 15**, the week after Thanksgiving. Your group will be assigned a slot to present in, on Monday or Friday of Week 15.
 
 ## Assessment {#assessment .unnumbered}
 

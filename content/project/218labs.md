@@ -1,6 +1,6 @@
 +++
 title = "218 Labs (Gitlab)"
-date = 2021-08-09
+date = 2026-11-01
 draft = false
 
 # Tags: can be used for filtering projects.

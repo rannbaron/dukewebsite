@@ -91,3 +91,6 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 # Icon Pack Extensions
 [icon.pack]
  ai = false  # Enable the Academicons icon pack https://jpswalsh.github.io/academicons/
+
+[security.funcs]
+  getenv = [ "^HUGO_", "^WC_" ]

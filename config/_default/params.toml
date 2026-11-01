@@ -9,7 +9,10 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-theme = "cyberpunk"
+
+[appearance]
+theme_day = "Cyberpunk"
+#theme_night = "Cyberpunk"
 
 # Enable users to switch between day and night mode?
 day_night = false

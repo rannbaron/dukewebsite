@@ -1,9 +1,9 @@
 module my-site
 
-go 1.12
+go 1.15
 
 require (
-	github.com/wowchemy/wowchemy-hugo-modules/v5 v5.3.0
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.0.0-20210807125257-88ec9270d03e // indirect
-	github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20210807125257-88ec9270d03e // indirect
+	github.com/wowchemy/wowchemy-hugo-modules/v5 v5.5.1-0.20220608104852-b18d867d887d
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy-cms/v5 v5.0.0-20220608104852-b18d867d887d
+	github.com/wowchemy/wowchemy-hugo-modules/wowchemy/v5 v5.0.0-20220608104852-b18d867d887d // indirect
 )
