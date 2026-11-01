@@ -66,8 +66,11 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [imaging]
   resampleFilter = "lanczos"
-  quality = 90
   anchor = "smart"  # Anchor for cropping. Options include Smart and Center.
+  [imaging.jpeg]
+    quality = 90
+  [imaging.webp]
+    quality = 90
 
 # Taxonomies.
 [taxonomies]

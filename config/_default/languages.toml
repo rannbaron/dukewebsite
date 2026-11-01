@@ -4,7 +4,7 @@
 
 # Configure the English version of the website.
 [en]
-  languageCode = "en-us"
+  locale = "en-us"
 
 # Uncomment the lines below to configure your website in a second language.
 #[languages.zh]
