@@ -52,8 +52,7 @@ WRAPPER_TEMPLATE = """<!DOCTYPE html>
         var path = window.location.pathname.replace(/^\\/~rann\\/?/, '');
         var search = window.location.search || '';
         var hash = window.location.hash || '';
-        var defaultTarget = '{target_url}';
-        if (path && path !== '{rel_path}') {{
+        if (path && path !== '{rel_path}' && path !== '{rel_path}/') {{
           document.getElementById('duke-embed-frame').src = 'https://rannbar-on.com/duke/' + path + search + hash;
         }}
       }} catch(e) {{}}
@@ -83,6 +82,7 @@ pages = [
     'project/105lmaterials',
     '106lmaterials',
     'project/106Lmaterials',
+    'project/106lmaterials',
     '218materials',
     'project/218materials',
     '218labs',
@@ -129,23 +129,14 @@ for sfile in static_files:
     if os.path.exists(src):
         shutil.copy2(src, dst)
 
-# 5. Create .htaccess for Apache reverse proxy (with fallback to wrapper)
+# 5. Create .htaccess for Apache routing
 htaccess_content = """# Apache configuration for https://sites.math.duke.edu/~rann/
-# Transparently display the new location while keeping the Duke address in the browser bar
-
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /~rann/
-
-  # If Apache mod_proxy is enabled, transparently reverse proxy
-  <IfModule mod_proxy.c>
-    # Do not proxy local static PDFs and images
-    RewriteCond %{REQUEST_URI} !\\.(pdf|png|jpg|jpeg|gif|svg|zip)$ [NC]
-    RewriteRule ^(.*)$ https://rannbar-on.com/duke/$1 [P,L]
-  </IfModule>
 </IfModule>
 
-# If mod_proxy is unavailable or request 404s, route to index.html wrapper
+# If path is not found, route to index.html wrapper which forwards to rannbar-on.com/duke/
 ErrorDocument 404 /~rann/index.html
 """
 

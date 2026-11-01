@@ -14,7 +14,7 @@ tags = ["calculus", "105L"]
 
 # Project summary to display on homepage.
 
-summary = "Materials for Fall 2025 105L"
+summary = "Materials for Fall 2026 105L"
 
 # Optional image to display on homepage.
 
