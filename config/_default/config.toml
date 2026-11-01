@@ -17,8 +17,8 @@ baseurl = "https://services.math.duke.edu/~rann/"
 copyright = "&copy; Rann Bar-On 2021"
 
 # These two lines make sure all URLs are relative.
-canonifyurls = true
-relativeURLs=true
+canonifyurls = false
+relativeURLs = false
 
 # Enable robots file to suppress crawling of certain pages
 enableRobotsTXT = "true"

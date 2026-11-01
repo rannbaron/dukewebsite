@@ -1,7 +1,8 @@
 +++
 title = "105L Materials (OLD: Fall 2020)"
 date = 2026-11-01
-draft = false
+draft = true
+slug = "105Lmaterials-fall20"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`

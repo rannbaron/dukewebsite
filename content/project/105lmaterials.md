@@ -165,3 +165,4 @@ All assignments have due dates listed in the table below. Note that all assignme
 | Lab           | 12/02/21 |                      | NO LAB                                                       |                                                              |                                                              |                                                              |                                                              |
 | 15-3          | 12/03/21 |                      | *Project Presentations*                                      |                                                              |                                                              |                                                              |                                                              |
 
+{{% /syllabus %}}
