@@ -29,11 +29,23 @@ DUKE=`curl -s ipinfo.io/org | cut -d ' ' -f 2`
 
 # If not, connect to VPN
 if [[ $DUKE != Duke ]]; then
+	if ! systemctl is-active --quiet vpnagentd; then
+		echo "Cisco VPN daemon (vpnagentd) is inactive. Starting service..."
+		sudo systemctl start vpnagentd
+		sleep 1
+	fi
+
 	STATE=`/opt/cisco/secureclient/bin/vpn state | grep state | head -1 | cut -d' ' -f5`
+	ATTEMPTS=0
 	while [[ $STATE != Connected ]]; do
-	     echo "Not Connected to Duke VPN. Connecting..."
-	     /opt/cisco/secureclient/bin/vpn con vpn.duke.edu
-	     STATE=`/opt/cisco/secureclient/bin/vpn state | grep state | tail -1 | cut -d' ' -f5`
+		if [[ $ATTEMPTS -ge 3 ]]; then
+			echo "Error: Failed to connect to Duke VPN after 3 attempts. Please check Cisco Secure Client."
+			exit 1
+		fi
+		echo "Not Connected to Duke VPN. Connecting..."
+		/opt/cisco/secureclient/bin/vpn con vpn.duke.edu
+		STATE=`/opt/cisco/secureclient/bin/vpn state | grep state | tail -1 | cut -d' ' -f5`
+		ATTEMPTS=$((ATTEMPTS + 1))
 	done
 
 	echo "Connected to Duke VPN. Proceeding..."
@@ -42,7 +54,7 @@ fi
 echo "Connecting to math server...Check Duo to approve login!"
 
 rsync -Pravz $LOCALWEBDIR/public/ cauchy.math.duke.edu:~/public_html/ --delete
-cd $PWD
+cd $CURDIR
 
 if [[ $STATE = Connected ]]; then
 	while true; do
