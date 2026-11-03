@@ -52,7 +52,7 @@ caption = ""
 * [Canvas](https://canvas.duke.edu/courses/80360)
 * [Getting Help](#getting-help)
   * [Math Help Room](https://math.duke.edu/undergraduate/help-tutoring/help-rooms) (See Hours below for 105L TAs, and see [full schedule](https://docs.google.com/spreadsheets/d/e/2PACX-1vTu1_AsZYLRbYZL1_Pba9VXW15KVSif8_hwot8Qfa_2Bq4BR9g6urfSW1q3AVrgR5jpD51G0msb68Qm/pubhtml?gid=1946218062&single=true) as well.)
-  * Office Hours in person (Classroom 132 TTh 11am-12:30pm, Classroom 132)
+  * Office Hours in person (Classroom 132: TTh 11:00am–12:30pm; **Note for this week only:** Thursday 11/5 office hours are moved to Friday 11/6 from 2:00–3:30pm)
   * [The Academic Resource Center](https://arc.duke.edu/)
 
 # Class Times, Locations, Emails, and Help Room Hours
